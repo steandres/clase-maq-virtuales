@@ -1,0 +1,21 @@
+1-¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?. 
+2-¿Qué tipo de máquina virtual soporta virtualBox?. 
+3-¿Qué función cumple el hypervisor en la virtualización?
+4-Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+
+Respuestas:
+1-Porque puede estar limitado a ciertos sistemas operativos debido a diferencias en la arquitectura, entorno de ejecución y las aplicaciones que se hace uso en cada sistema. Esto puede afectar cómo el lenguaje interactúa con el sistema y sus recursos.
+2- Algunas de las maquinas virtuales que soporta son:
+Windows 2000, service pack 3 y superiores.
+Windows XP, todos los service packs.
+Windows Server 2003.
+Debian GNU/Linux 3.1 (sarge) y etch.
+Fedora Core 4 y 5.
+Gentoo Linux.
+Redhad Enterprise Linux 3 y 4.
+SUSE Linux 9 y 10.
+Ubunto 5.10 (Breezy Badger), 6.06 (Dapper Drake), 6.10 (Edgy Eft)
+
+3- La función principal del hypervisor en la virtualización es gestionar y coordinar múltiples máquinas virtuales en un servidor físico, asignando recursos, proporcionando aislamiento entre las máquinas virtuales y emulando hardware virtualizado para su funcionamiento.
+
+4- No, generalmente una máquina virtual que se rompe o tiene problemas técnicos no afecta a las demás. Esto se debe al aislamiento proporcionado por el hypervisor, que separa las máquinas virtuales para prevenir interferencias directas. Cada máquina virtual opera como si fuera independiente en su propio entorno virtualizado.
